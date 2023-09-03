@@ -1,0 +1,15 @@
+{
+  "homepage": "https://www.boost.org/doc/libs/release/libs/lambda2/doc/html/index.html",
+  "maintainers": [
+    {
+      "email": "ezekiel@seaube.com",
+      "github": "zaucy",
+      "name": "Ezekiel Warren"
+    }
+  ],
+  "repository": [
+    "github:bazelboost/lambda2"
+  ],
+  "versions": [],
+  "yanked_versions": {}
+}

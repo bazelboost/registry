@@ -1,0 +1,15 @@
+{
+  "homepage": "https://www.boost.org/doc/libs/release/libs/stl_interfaces/doc/html/index.html",
+  "maintainers": [
+    {
+      "email": "ezekiel@seaube.com",
+      "github": "zaucy",
+      "name": "Ezekiel Warren"
+    }
+  ],
+  "repository": [
+    "github:bazelboost/stl_interfaces"
+  ],
+  "versions": [],
+  "yanked_versions": {}
+}

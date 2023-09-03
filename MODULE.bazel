@@ -1,0 +1,4 @@
+module(name = "bazelboost_registry")
+
+bazel_dep(name = "gflags", version = "2.2.2")
+bazel_dep(name = "nlohmann_json", version = "3.11.2")

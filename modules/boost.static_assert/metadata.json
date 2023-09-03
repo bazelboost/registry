@@ -1,0 +1,15 @@
+{
+  "homepage": "https://www.boost.org/doc/libs/release/libs/static_assert/doc/html/index.html",
+  "maintainers": [
+    {
+      "email": "ezekiel@seaube.com",
+      "github": "zaucy",
+      "name": "Ezekiel Warren"
+    }
+  ],
+  "repository": [
+    "github:bazelboost/static_assert"
+  ],
+  "versions": [],
+  "yanked_versions": {}
+}

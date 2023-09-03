@@ -1,0 +1,15 @@
+{
+  "homepage": "https://www.boost.org/doc/libs/release/libs/config/doc/html/index.html",
+  "maintainers": [
+    {
+      "email": "ezekiel@seaube.com",
+      "github": "zaucy",
+      "name": "Ezekiel Warren"
+    }
+  ],
+  "repository": [
+    "github:bazelboost/config"
+  ],
+  "versions": [],
+  "yanked_versions": {}
+}

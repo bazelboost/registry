@@ -1,0 +1,16 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+
+cc_library(
+    name = "config_types",
+    hdrs = ["config_types.hh"],
+    deps = ["@nlohmann_json//:json"],
+)
+
+cc_binary(
+    name = "init_module",
+    srcs = ["init_module.cc"],
+    deps = [
+        ":config_types",
+        "@gflags",
+    ],
+)
