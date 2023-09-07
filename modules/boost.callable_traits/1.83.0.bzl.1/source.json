@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-ltcwPpldnVATitLDB0Gcb81e59GjYRdbQ/pCSJl5RRE=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/callable_traits/releases/download/bazelboost-1.83.0.bzl.1/callable_traits-bazelboost-1.83.0.bzl.1.tar.gz"
+}
