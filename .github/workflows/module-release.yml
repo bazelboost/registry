@@ -25,7 +25,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add -A
-          git commit -m -m "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"
+          git commit -m "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"
       - run: gh pr create -R bazelboost/registry --fill
         env:
           GH_TOKEN: ${{ github.token }}
