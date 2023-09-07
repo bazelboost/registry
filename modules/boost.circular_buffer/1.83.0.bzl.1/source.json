@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-F0ywJki774x8FNxFzQvZvjmj6ACTwoVG5cBDngAugBM=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/circular_buffer/releases/download/bazelboost-1.83.0.bzl.1/circular_buffer-bazelboost-1.83.0.bzl.1.tar.gz"
+}
