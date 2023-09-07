@@ -27,6 +27,7 @@ jobs:
           git checkout -b add-${{ github.event.client_payload.repo }}-${{ github.event.client_payload.tag_name }}
           git add -A
           git commit -m "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"
+          git push origin -u add-${{ github.event.client_payload.repo }}-${{ github.event.client_payload.tag_name }}
       - run: gh pr create -R bazelboost/registry --fill -B main
         env:
           GH_TOKEN: ${{ github.token }}
