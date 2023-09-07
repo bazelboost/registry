@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-P7XqedRwyp/CJZp/AY5Ed28caJLeNi7K9jQ5nx6YKDw=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/lambda2/releases/download/bazelboost-1.83.0.bzl.1/lambda2-bazelboost-1.83.0.bzl.1.tar.gz"
+}
