@@ -2,6 +2,7 @@ load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
 
 cc_library(
     name = "config_types",
+    visibility = ["//visibility:public"],
     hdrs = ["config_types.hh"],
     deps = ["@nlohmann_json//:json"],
 )
