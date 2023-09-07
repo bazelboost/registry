@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-SkUocUHU6z2Nie1d2CX6AIAhbQ5/e2poNC9FkPScrlE=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/static_assert/releases/download/bazelboost-1.83.0.bzl.1/static_assert-bazelboost-1.83.0.bzl.1.tar.gz"
+}
