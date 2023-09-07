@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-Uum6Loun7RFBmOrXtxRA17U+bh6+F7IRhxM9qWo0VRw=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/safe_numerics/releases/download/bazelboost-1.83.0.bzl.1/safe_numerics-bazelboost-1.83.0.bzl.1.tar.gz"
+}
