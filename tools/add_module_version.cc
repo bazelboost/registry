@@ -259,12 +259,7 @@ auto main(int argc, char* argv[]) -> int {
 	auto source = bazel_registry::source_config{};
 
 	source.integrity = value_or_error(calc_sha256_integrity(archive));
-	source.url = std::format(
-		"https://github.com/bazelboost/{0}/releases/download/{1}/"
-		"bazelboost-{0}-{1}.tar.gz",
-		boost_module,
-		info.version
-	);
+	source.url = archive;
 
 	auto source_json_path = module_dir / info.version / "source.json";
 	fs::create_directories(source_json_path.parent_path(), ec);
