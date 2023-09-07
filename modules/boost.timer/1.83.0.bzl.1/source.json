@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-vC6ibAYNO0wQ3hcOYXKQqRjsYrKdDCnfNQPOxdKrDow=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/timer/releases/download/bazelboost-1.83.0.bzl.1/timer-bazelboost-1.83.0.bzl.1.tar.gz"
+}
