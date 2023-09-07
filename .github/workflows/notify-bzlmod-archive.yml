@@ -1,7 +1,7 @@
-name: Module Release
+name: Notify Bzlmod Archive
 on:
   repository_dispatch:
-    types: [bazelboost-module-release]
+    types: [notify-bzlmod-archive]
 jobs:
   create-pr:
     name: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}

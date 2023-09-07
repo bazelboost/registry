@@ -1,0 +1,30 @@
+name: Bzlmod Archive
+
+on:
+  workflow_call: {}
+
+jobs:
+  # A release archive is required for bzlmod
+  # See: https://blog.bazel.build/2023/02/15/github-archive-checksum.html
+  upload-archive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: git archive -o "${{ format('{0}-{1}.tar.gz', github.event.repository.name, github.event.release.tag_name) }}" HEAD *.bazel include
+      - run: gh release upload ${{ github.event.release.tag_name }} *.tar.gz
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Notify Bazel Registry
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.BAZELBOOST_REGISTRY_TOKEN }}
+          repository: bazelboost/registry
+          event-type: notify-bzlmod-archive
+          client-payload: >-
+            {
+              "repo": "${{ github.event.repository.name }}", 
+              "tag_name": "${{ github.event.release.tag_name }}",
+              "archive": "${{ format('https://github.com/bazelboost/{0}/releases/download/{1}/{0}-{1}.tar.gz', github.event.repository.name, github.event.release.tag_name) }}"
+            }
