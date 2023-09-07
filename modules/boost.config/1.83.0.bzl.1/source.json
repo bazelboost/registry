@@ -2,5 +2,5 @@
   "integrity": "sha256-JIiDc4UAubDZNsSRwWEdj77fn7TolD/kd459WdGXNd8=",
   "patch_strip": 0,
   "patches": {},
-  "url": "https://github.com/bazelboost/config/releases/download/1.83.0.bzl.1/bazelboost-config-1.83.0.bzl.1.tar.gz"
+  "url": "config-bazelboost-1.83.0.bzl.1.tar.gz"
 }
