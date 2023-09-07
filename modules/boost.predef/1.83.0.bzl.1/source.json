@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-maKSi0FusUu7qzB9eYDMraF/euhJV+ap5sJQMEqGfOw=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/predef/releases/download/bazelboost-1.83.0.bzl.1/predef-bazelboost-1.83.0.bzl.1.tar.gz"
+}
