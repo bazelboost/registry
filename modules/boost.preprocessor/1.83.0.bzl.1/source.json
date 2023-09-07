@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-FM4l16k3YYuUyviJJ0ShnjacAd70qKO8Kw50GEI5XFM=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/preprocessor/releases/download/bazelboost-1.83.0.bzl.1/preprocessor-bazelboost-1.83.0.bzl.1.tar.gz"
+}
