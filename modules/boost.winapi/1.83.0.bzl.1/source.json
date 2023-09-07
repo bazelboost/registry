@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-nrAtw302Q79htiAjVo1yaFDT+dj5y8SLJCv620jMcrI=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/winapi/releases/download/bazelboost-1.83.0.bzl.1/winapi-bazelboost-1.83.0.bzl.1.tar.gz"
+}
