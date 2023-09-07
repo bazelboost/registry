@@ -1,0 +1,5 @@
+module(
+    name = "boost.config",
+    version = "1.83.0.bzl.1",
+    compatibility_level = 108300,
+)
