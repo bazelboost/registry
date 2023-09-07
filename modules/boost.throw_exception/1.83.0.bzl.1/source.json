@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-SE5vLbktJC0nYTR6AwrVP+PgwjMHuBPqTrTjoINUe2Y=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/throw_exception/releases/download/bazelboost-1.83.0.bzl.1/throw_exception-bazelboost-1.83.0.bzl.1.tar.gz"
+}
