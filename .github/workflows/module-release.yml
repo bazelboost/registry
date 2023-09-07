@@ -12,6 +12,8 @@ jobs:
             ~/.cache/bazelisk
             ~/.cache/bazel-disk-cache
           key: ${{runner.os}}-bazel-cache      
+      - uses: actions/setup-go@v4
+      - run: go install github.com/bazelbuild/buildtools/buildozer@latest
       - uses: actions/checkout@v4
         with:
           repository: bazelboost/registry
