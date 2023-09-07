@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-c/pgvPBIu9i4YZyJngWm5UcSNob63dR8l0hvfY2m0k4=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/logic/releases/download/bazelboost-1.83.0.bzl.1/logic-bazelboost-1.83.0.bzl.1.tar.gz"
+}
