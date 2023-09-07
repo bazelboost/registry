@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-u6dka5MG5+EeMB58aU12sMUxRA6uqnpPcILSlZdQlDQ=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/smart_ptr/releases/download/bazelboost-1.83.0.bzl.1/smart_ptr-bazelboost-1.83.0.bzl.1.tar.gz"
+}
