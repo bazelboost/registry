@@ -1,0 +1,23 @@
+name: Module Release
+on:
+  repository_dispatch:
+    types: [bazelboost-module-release]
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/bazelisk
+            ~/.cache/bazel-disk-cache
+          key: ${{runner.os}}-bazel-cache      
+      - uses: actions/checkout@v4
+        with:
+          repository: bazelboost/registry
+      - run: bazelisk run --config=ci //tools:add_module_version -- -archive="${{ github.event.client_payload.archive }}"
+      - run: git add -A
+      - run: git commit -m "add ${{ github.event.release.tag_name }}"
+      - run: gh pr create -R bazelboost/registry --fill
+        env:
+          GH_TOKEN: ${{ github.token }}
