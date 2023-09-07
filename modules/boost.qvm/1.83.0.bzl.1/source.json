@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-nLdi0w3QxQ4z+G/NOJMZ2MFrjxytNFU/BCQFVZ7VWUM=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/qvm/releases/download/bazelboost-1.83.0.bzl.1/qvm-bazelboost-1.83.0.bzl.1.tar.gz"
+}
