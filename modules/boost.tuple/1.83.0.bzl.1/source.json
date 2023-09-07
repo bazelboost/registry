@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-IobBnwLw40AMGNB2N7UOiegKP3QUzKV2nX753gOWcqU=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/tuple/releases/download/bazelboost-1.83.0.bzl.1/tuple-bazelboost-1.83.0.bzl.1.tar.gz"
+}
