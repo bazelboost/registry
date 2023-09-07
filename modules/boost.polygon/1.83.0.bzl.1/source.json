@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-+O2vwyD8E8LtL2omze3HaBsXrAhFx1Ty93BKbnksDwA=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/polygon/releases/download/bazelboost-1.83.0.bzl.1/polygon-bazelboost-1.83.0.bzl.1.tar.gz"
+}
