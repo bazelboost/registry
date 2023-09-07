@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-r/69SGYqbQmNGqiYDnVP/2D6c+qxSEQx3hQG2M68qKs=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/vmd/releases/download/bazelboost-1.83.0.bzl.1/vmd-bazelboost-1.83.0.bzl.1.tar.gz"
+}
