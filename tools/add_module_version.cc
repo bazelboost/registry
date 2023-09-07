@@ -53,9 +53,9 @@ auto extract_archive(fs::path archive_path, fs::path out_dir) -> fs::path {
 }
 
 auto download_archive(std::string archive_url) -> fs::path {
-	auto archive = archive_url.substr(archive_url.find_last_of("/"));
+	auto archive = archive_url.substr(archive_url.find_last_of("/") + 1);
 	// TODO(zaucy): replace with libcurl or something
-	auto cmd = std::format("curl {} -o {}", archive_url, archive);
+	auto cmd = std::format("curl -L {} -o {}", archive_url, archive);
 
 	if(std::system(cmd.c_str()) != 0) {
 		std::cerr << std::format("Failed to download archive with\n\n\t{}\n", cmd);
@@ -73,15 +73,20 @@ struct module_info {
 
 auto get_module_info(fs::path bzlmod_path) -> module_info {
 	auto ec = std::error_code{};
-	auto cwd = fs::current_path();
-	auto tmp_module_info_txt_path = cwd / ".cache" / "_tmp_module_info.txt";
+	auto tmp_module_info_txt_path =
+		fs::current_path() / ".cache" / "_tmp_module_info.txt";
 	fs::create_directories(tmp_module_info_txt_path.parent_path(), ec);
 
-	fs::current_path(bzlmod_path);
+	auto module_path = bzlmod_path / "MODULE.bazel";
+	if(!fs::exists(module_path)) {
+		std::cerr << std::format("{} does not exist\n", module_path.generic_string());
+		std::exit(1);
+	}
 
 	auto cmd = std::format(
-		"buildozer \"print name version compatibility_level\" //MODULE.bazel:all > "
-		"\"{}\"",
+		"buildozer -root_dir=\"{}\" \"print name version compatibility_level\" "
+		"//MODULE.bazel:all > \"{}\"",
+		bzlmod_path.generic_string(),
 		tmp_module_info_txt_path.string()
 	);
 
@@ -95,8 +100,6 @@ auto get_module_info(fs::path bzlmod_path) -> module_info {
 	}
 
 	auto info = module_info{};
-
-	fs::current_path(cwd);
 
 	auto tmp_module_info_txt_file = std::ifstream{tmp_module_info_txt_path};
 	tmp_module_info_txt_file >> info.name >> info.version >>
@@ -208,13 +211,16 @@ auto main(int argc, char* argv[]) -> int {
 	}
 
 	auto extract_dir =
-		extract_archive(FLAGS_archive, fs::path{".cache"} / "module_archive");
+		extract_archive(archive, fs::path{".cache"} / "module_archive");
 	auto info = get_module_info(extract_dir);
 	auto module_dir = fs::path{"modules"} / info.name;
 	auto metadata_path = module_dir / "metadata.json";
 
 	if(!info.name.starts_with("boost.")) {
-		std::cerr << "Only boost modules may use this script\n";
+		std::cerr << std::format(
+			"Only boost modules may use this script. Instead got {}\n",
+			info.name
+		);
 		return 1;
 	}
 
