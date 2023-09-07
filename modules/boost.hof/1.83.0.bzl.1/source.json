@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-BQmLHBaC3+H5A04RPIc+YSMJH0KuQosrA7sXGvkn1BQ=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/hof/releases/download/bazelboost-1.83.0.bzl.1/hof-bazelboost-1.83.0.bzl.1.tar.gz"
+}
