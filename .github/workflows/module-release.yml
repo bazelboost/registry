@@ -4,7 +4,10 @@ on:
     types: [bazelboost-module-release]
 jobs:
   create-pr:
+    name: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/cache@v3
         with:
@@ -18,8 +21,11 @@ jobs:
         with:
           repository: bazelboost/registry
       - run: bazelisk run --config=ci //tools:add_module_version -- -archive="${{ github.event.client_payload.archive }}"
-      - run: git add -A
-      - run: 'git commit -m "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"'
+      - run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add -A
+          git commit -m -m "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"
       - run: gh pr create -R bazelboost/registry --fill
         env:
           GH_TOKEN: ${{ github.token }}
