@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-3i9cAvhEmsBFAM2cTQPi2btGvg6bSLaXzq7KImGLG0g=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/mp11/releases/download/bazelboost-1.83.0.bzl.1/mp11-bazelboost-1.83.0.bzl.1.tar.gz"
+}
