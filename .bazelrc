@@ -6,8 +6,13 @@ build --incompatible_strict_action_env
 build --enable_runfiles
 
 build:windows --cxxopt=/std:c++latest
-build:linux --cxxopt=-std=c++20
-build:macos --cxxopt=-std=c++20
+build:linux --cxxopt=-std=c++2b
+build:linux --cxxopt=-fexperimental-library
+build:linux --linkopt=-lc++experimental
+build:macos --cxxopt=-std=c++2b
+
+# Temporary until https://github.com/grailbio/bazel-toolchain/pull/198 is merged
+build:linux --extra_toolchains=@llvm_toolchain//:cc-toolchain-x86_64-linux
 
 common:ci --announce_rc
 common:ci --verbose_failures

@@ -1,5 +1,6 @@
 #include <filesystem>
 #include <iostream>
+#include <array>
 #include <string>
 #include <format>
 #include <fstream>
@@ -114,7 +115,7 @@ auto file_get_contents(const char* filename, CharContainer* v) -> size_t {
 	v->resize(static_cast<typename CharContainer::size_type>(sz));
 	if(sz) {
 		::rewind(fp);
-		size_t ret = ::fread(&(*v)[0], 1, v->size(), fp);
+		::fread(&(*v)[0], 1, v->size(), fp);
 	}
 	::fclose(fp);
 	return v->size();
@@ -173,6 +174,16 @@ auto calc_sha256_integrity(fs::path p)
 	return "sha256-" + b64_str;
 }
 
+auto range_contains(auto&& range, auto&& value) -> bool {
+	for(auto&& el : range) {
+		if(el == value) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
 auto main(int argc, char* argv[]) -> int {
 	fs::current_path(std::getenv("BUILD_WORKSPACE_DIRECTORY"));
 	gflags::SetUsageMessage("Add new version to module");
@@ -212,7 +223,7 @@ auto main(int argc, char* argv[]) -> int {
 	bazel_registry::metadata_config metadata =
 		json::parse(std::ifstream{metadata_path});
 
-	if(std::ranges::contains(metadata.versions, info.version)) {
+	if(range_contains(metadata.versions, info.version)) {
 		std::cerr << std::format(
 			"version {} already added for {}\n",
 			info.version,
