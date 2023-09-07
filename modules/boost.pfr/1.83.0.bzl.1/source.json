@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-IyAK/LSnncmL3YEduC4PHe20ks+HFU1r3nJITyy8BnY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/pfr/releases/download/bazelboost-1.83.0.bzl.1/pfr-bazelboost-1.83.0.bzl.1.tar.gz"
+}
