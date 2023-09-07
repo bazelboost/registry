@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-b9Fsi1hqDRBM9a4sAz0+A7wns8PGSi2KIjEZ6qNmXb0=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/type_traits/releases/download/bazelboost-1.83.0.bzl.1/type_traits-bazelboost-1.83.0.bzl.1.tar.gz"
+}
