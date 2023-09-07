@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-6YXSlKbrpLu48E5PqTqEmSOlm92T/MY+XLkGUbfMMgo=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/array/releases/download/bazelboost-1.83.0.bzl.1/array-bazelboost-1.83.0.bzl.1.tar.gz"
+}
