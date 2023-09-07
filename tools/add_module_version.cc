@@ -36,6 +36,7 @@ auto extract_archive(fs::path archive_path, fs::path out_dir) -> fs::path {
 	fs::create_directories(archive_out_dir, ec);
 
 	// TODO(zaucy): replace with libarchive or something else
+	std::cout << std::format("extracting {} ...\n", archive_path.generic_string());
 	auto cmd = std::format(
 		"tar -xf {} -C {}",
 		archive_path.generic_string(),
@@ -55,8 +56,9 @@ auto extract_archive(fs::path archive_path, fs::path out_dir) -> fs::path {
 auto download_archive(std::string archive_url) -> fs::path {
 	auto archive = archive_url.substr(archive_url.find_last_of("/") + 1);
 	// TODO(zaucy): replace with libcurl or something
-	auto cmd = std::format("curl -L {} -o {}", archive_url, archive);
+	auto cmd = std::format("curl -sL {} -o {}", archive_url, archive);
 
+	std::cout << std::format("downloading {} ...\n", archive_url);
 	if(std::system(cmd.c_str()) != 0) {
 		std::cerr << std::format("Failed to download archive with\n\n\t{}\n", cmd);
 		std::exit(1);
@@ -133,6 +135,9 @@ auto file_get_contents(const char* filename) -> CharContainer {
 
 auto calc_sha256_integrity(fs::path p)
 	-> std::expected<std::string, std::string> {
+
+	std::cout << std::format("caluclating {} integrity ...\n", p.filename().string());
+	
 	auto data = file_get_contents<std::vector<std::byte>>(p.string().c_str());
 	auto ctx = EVP_MD_CTX_new();
 
@@ -187,6 +192,15 @@ auto range_contains(auto&& range, auto&& value) -> bool {
 	return false;
 }
 
+auto value_or_error(auto&& result) {
+	if(!result) {
+		std::cerr << std::format("[ERROR]: {}\n", result.error());
+		std::exit(1);
+	}
+
+	return result.value();
+}
+
 auto main(int argc, char* argv[]) -> int {
 	fs::current_path(std::getenv("BUILD_WORKSPACE_DIRECTORY"));
 	gflags::SetUsageMessage("Add new version to module");
@@ -238,11 +252,13 @@ auto main(int argc, char* argv[]) -> int {
 		return 1;
 	}
 
+	std::cout << std::format("adding {} {}\n", info.name, info.version);
+
 	metadata.versions.push_back(info.version);
 
 	auto source = bazel_registry::source_config{};
 
-	source.integrity = calc_sha256_integrity(FLAGS_archive).value();
+	source.integrity = value_or_error(calc_sha256_integrity(archive));
 	source.url = std::format(
 		"https://github.com/bazelboost/{0}/releases/download/{1}/"
 		"bazelboost-{0}-{1}.tar.gz",
@@ -261,6 +277,7 @@ auto main(int argc, char* argv[]) -> int {
 		std::ios::trunc | std::ios::in | std::ios::out,
 	};
 
+	std::cout << std::format("writing {} ...", source_json_path.generic_string());
 	source_file << source_json.dump(2);
 	source_file.flush();
 
@@ -272,8 +289,12 @@ auto main(int argc, char* argv[]) -> int {
 		std::ios::trunc | std::ios::in | std::ios::out,
 	};
 
+
+	std::cout << std::format("updating {} ...", metadata_path.generic_string());
 	metadata_config_file << metadata_json.dump(2);
 	metadata_config_file.flush();
+
+	std::cout << "DONE\n";
 
 	return 0;
 }
