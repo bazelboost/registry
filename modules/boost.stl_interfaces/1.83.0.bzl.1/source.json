@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-9V72EHmB0g6JnItWtQvwrs91nRQX5yFgFxrQxN0OuIY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/stl_interfaces/releases/download/bazelboost-1.83.0.bzl.1/stl_interfaces-bazelboost-1.83.0.bzl.1.tar.gz"
+}
