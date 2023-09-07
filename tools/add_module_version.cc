@@ -272,12 +272,21 @@ auto main(int argc, char* argv[]) -> int {
 	auto source_json = json{};
 	to_json(source_json, source);
 
+
+	auto module_file_path = module_dir / info.version / "MODULE.bazel";
+	std::cout << std::format("copying into {} ...\n", module_file_path.generic_string());
+	fs::copy_file( //
+		extract_dir / "MODULE.bazel",
+		module_file_path,
+		ec
+	);
+
 	auto source_file = std::ofstream{
 		source_json_path,
 		std::ios::trunc | std::ios::in | std::ios::out,
 	};
 
-	std::cout << std::format("writing {} ...", source_json_path.generic_string());
+	std::cout << std::format("writing {} ...\n", source_json_path.generic_string());
 	source_file << source_json.dump(2);
 	source_file.flush();
 
@@ -288,7 +297,6 @@ auto main(int argc, char* argv[]) -> int {
 		metadata_path,
 		std::ios::trunc | std::ios::in | std::ios::out,
 	};
-
 
 	std::cout << std::format("updating {} ...", metadata_path.generic_string());
 	metadata_config_file << metadata_json.dump(2);
