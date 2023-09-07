@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-ADadnx1/jUT+AdRlnafRiBjkd63R+BhVr46Bjcq8viY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/crc/releases/download/bazelboost-1.83.0.bzl.1/crc-bazelboost-1.83.0.bzl.1.tar.gz"
+}
