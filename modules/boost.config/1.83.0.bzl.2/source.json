@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-xE/WNjSKTV8TE5oQ/JUwCVYduRLAEUqAlirco5ioLNM=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "config-bazelboost-1.83.0.bzl.2.tar.gz"
+}
