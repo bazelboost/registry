@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-KbxE4hJ8buR5rPFeDqyu/oo/DsudF9GpxX0wOkdP2Wg=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/align/releases/download/bazelboost-1.83.0.bzl.1/align-bazelboost-1.83.0.bzl.1.tar.gz"
+}
