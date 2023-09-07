@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-9HqSn+jgGoo//vUQibK9EVOvDY8LY4YTbgsaxlVuQcM=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/intrusive/releases/download/bazelboost-1.83.0.bzl.1/intrusive-bazelboost-1.83.0.bzl.1.tar.gz"
+}
