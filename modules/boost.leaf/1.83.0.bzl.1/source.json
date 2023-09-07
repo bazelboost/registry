@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-quBX7fa8jrPr2Hix34ISbb8ZetlnYzhClJgRg7gXWu4=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/leaf/releases/download/bazelboost-1.83.0.bzl.1/leaf-bazelboost-1.83.0.bzl.1.tar.gz"
+}
