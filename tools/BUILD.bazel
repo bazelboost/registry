@@ -14,3 +14,13 @@ cc_binary(
         "@gflags",
     ],
 )
+
+cc_binary(
+    name = "add_module_version",
+    srcs = ["add_module_version.cc"],
+    deps = [
+        ":config_types",
+        "@gflags",
+        "@boringssl//:crypto",
+    ],
+)

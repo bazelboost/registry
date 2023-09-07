@@ -11,9 +11,9 @@
 namespace fs = std::filesystem;
 using nlohmann::json;
 
-DEFINE_string(module_name, "", "Boost module name");
-DEFINE_validator(module_name, [](auto, auto module_name) -> bool {
-	return !module_name.empty();
+DEFINE_string(module, "", "boost module name");
+DEFINE_validator(module, [](auto, auto module) -> bool {
+	return !module.empty();
 });
 
 auto check_error(std::error_code ec) -> void {
@@ -31,7 +31,7 @@ auto main(int argc, char* argv[]) -> int {
 	auto ec = std::error_code{};
 	auto metadata = bazel_registry::metadata_config{};
 	auto metadata_config_path = fs::path{
-		std::format("modules/boost.{}/metadata.json", FLAGS_module_name),
+		std::format("modules/boost.{}/metadata.json", FLAGS_module),
 	};
 
 	if(fs::exists(metadata_config_path)) {
@@ -51,7 +51,7 @@ auto main(int argc, char* argv[]) -> int {
 
 	metadata.homepage = std::format(
 		"https://www.boost.org/doc/libs/release/libs/{}/doc/html/index.html",
-		FLAGS_module_name
+		FLAGS_module
 	);
 
 	if(metadata.maintainers.empty()) {
@@ -64,7 +64,7 @@ auto main(int argc, char* argv[]) -> int {
 
 	if(metadata.repository.empty()) {
 		metadata.repository.push_back(
-			std::format("github:bazelboost/{}", FLAGS_module_name)
+			std::format("github:bazelboost/{}", FLAGS_module)
 		);
 	}
 
