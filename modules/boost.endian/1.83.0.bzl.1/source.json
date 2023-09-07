@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-7FT83Sr4yyeD+1kyFyNXjernpafnRUGp19LPV/oQ0Ek=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/endian/releases/download/bazelboost-1.83.0.bzl.1/endian-bazelboost-1.83.0.bzl.1.tar.gz"
+}
