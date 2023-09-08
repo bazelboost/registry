@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-m6S5N5jHkXCnywIr9q2xfQRv8759lO4KubViF6iIKvE=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/graph/releases/download/bazelboost-1.83.0.bzl.1/graph-bazelboost-1.83.0.bzl.1.tar.gz"
+}
