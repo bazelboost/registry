@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-+gfZ9uW80xlX3ak5c2g/I3itnw8g9T5P9dHxC0fx/Bs=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/mpi/releases/download/bazelboost-1.83.0.bzl.1/mpi-bazelboost-1.83.0.bzl.1.tar.gz"
+}
