@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-ecih//OTYRydkTXCFYm+z7I/Mu++Us81RhSPtnSTaIk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/scope_exit/releases/download/bazelboost-1.83.0.bzl.1/scope_exit-bazelboost-1.83.0.bzl.1.tar.gz"
+}
