@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-VL3VWgvIOGgx9dmUMu5sHOrA9r+tCZ0j+A3plOtiKUU=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/fiber/releases/download/bazelboost-1.83.0.bzl.1/fiber-bazelboost-1.83.0.bzl.1.tar.gz"
+}
