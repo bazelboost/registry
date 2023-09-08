@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-FPywhKdyOTANs5dECGdUrjAP/SCXmN5xoXo94KgIdrk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/property_map_parallel/releases/download/bazelboost-1.83.0.bzl.1/property_map_parallel-bazelboost-1.83.0.bzl.1.tar.gz"
+}
