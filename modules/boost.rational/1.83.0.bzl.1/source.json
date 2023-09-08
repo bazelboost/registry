@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-F7zoLpAWf+c1aG3QYxAj0rf8ctP/6ua5A5QDVsW4V7c=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/rational/releases/download/bazelboost-1.83.0.bzl.1/rational-bazelboost-1.83.0.bzl.1.tar.gz"
+}
