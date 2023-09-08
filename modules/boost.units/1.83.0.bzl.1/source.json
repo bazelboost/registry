@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-/LrlMHEnnSUv1eZGdZc03z80FWwXVeMYo/9/jhFksik=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/units/releases/download/bazelboost-1.83.0.bzl.1/units-bazelboost-1.83.0.bzl.1.tar.gz"
+}
