@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-kb0x3fkt7sAoCovDxvJWnPdpvIlVZE+7/BEccWpXLn0=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/asio/releases/download/bazelboost-1.83.0.bzl.2/asio-bazelboost-1.83.0.bzl.2.tar.gz"
+}
