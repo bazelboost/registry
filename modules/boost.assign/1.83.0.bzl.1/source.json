@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-mRh1Ua7dVxKdmukydM9bhKcafV2K/fbolkBkAoTNnUY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/assign/releases/download/bazelboost-1.83.0.bzl.1/assign-bazelboost-1.83.0.bzl.1.tar.gz"
+}
