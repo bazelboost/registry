@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-7moxU5VBlotcJcPNghHwBeCKiM9QqmkvpFPO9h1sH60=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/type_erasure/releases/download/bazelboost-1.83.0.bzl.1/type_erasure-bazelboost-1.83.0.bzl.1.tar.gz"
+}
