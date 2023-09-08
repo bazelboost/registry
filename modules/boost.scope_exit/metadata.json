@@ -10,6 +10,8 @@
   "repository": [
     "github:bazelboost/scope_exit"
   ],
-  "versions": [],
+  "versions": [
+    "1.83.0.bzl.1"
+  ],
   "yanked_versions": {}
 }
