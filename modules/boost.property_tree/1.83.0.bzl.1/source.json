@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-07zXbxHUT37jaMEq5zUxC8Yj1ZFBOGue3a/WO12oABk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/property_tree/releases/download/bazelboost-1.83.0.bzl.1/property_tree-bazelboost-1.83.0.bzl.1.tar.gz"
+}
