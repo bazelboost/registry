@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-MR63xdQ5U5yQKsf1mx1/68SPhM0BG4qglGtZvK62nLs=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/flyweight/releases/download/bazelboost-1.83.0.bzl.1/flyweight-bazelboost-1.83.0.bzl.1.tar.gz"
+}
