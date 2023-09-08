@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-IP1iIeU3/eFM/Xr3NaQ03Rrd+4NItv749soMrIDBzT4=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/range/releases/download/bazelboost-1.83.0.bzl.1/range-bazelboost-1.83.0.bzl.1.tar.gz"
+}
