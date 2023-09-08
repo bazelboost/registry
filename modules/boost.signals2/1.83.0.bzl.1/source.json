@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-tEsSib3MHxxVUow0UNB0WknR8nTmVs6ib2qGcFo0wwc=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/signals2/releases/download/bazelboost-1.83.0.bzl.1/signals2-bazelboost-1.83.0.bzl.1.tar.gz"
+}
