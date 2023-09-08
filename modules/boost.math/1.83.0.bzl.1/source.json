@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-aGJlpJtFlMIGhz5aEnmKKosIlnYVHgH4FF2Da9H8lFE=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/math/releases/download/bazelboost-1.83.0.bzl.1/math-bazelboost-1.83.0.bzl.1.tar.gz"
+}
