@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-kjNmIFI2S54ZdfGvqNWL2sbQR1jBs+lVmY2cqxVl9eY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/outcome/releases/download/bazelboost-1.83.0.bzl.1/outcome-bazelboost-1.83.0.bzl.1.tar.gz"
+}

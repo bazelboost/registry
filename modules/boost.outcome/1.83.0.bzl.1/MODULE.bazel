@@ -1,0 +1,11 @@
+module(
+    name = "boost.outcome",
+    version = "1.83.0.bzl.1",
+    compatibility_level = 108300,
+)
+
+bazel_dep(name = "rules_cc", version = "0.0.8")
+bazel_dep(name = "boost.config", version = "1.83.0.bzl.6")
+bazel_dep(name = "boost.exception", version = "1.83.0.bzl.1")
+bazel_dep(name = "boost.system", version = "1.83.0.bzl.1")
+bazel_dep(name = "boost.throw_exception", version = "1.83.0.bzl.1")
