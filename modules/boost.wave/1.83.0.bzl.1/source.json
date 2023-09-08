@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-wdg+WDcyTDvba0jGMHeg5Ix+P0ZMqy0jiWxz/eSRlPo=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/wave/releases/download/bazelboost-1.83.0.bzl.1/wave-bazelboost-1.83.0.bzl.1.tar.gz"
+}
