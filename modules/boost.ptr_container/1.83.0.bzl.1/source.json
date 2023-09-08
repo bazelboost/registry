@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-/NMiiTtgCyuaHGDH+sJUcu9VqCyzBlM6HZ4I81KhmlY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/ptr_container/releases/download/bazelboost-1.83.0.bzl.1/ptr_container-bazelboost-1.83.0.bzl.1.tar.gz"
+}
