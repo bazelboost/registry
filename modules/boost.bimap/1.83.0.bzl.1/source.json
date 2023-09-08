@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-onFveq93tGEvjKkwLJ1Fiw86WrQWlMSwGuNL+WIe4RE=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/bimap/releases/download/bazelboost-1.83.0.bzl.1/bimap-bazelboost-1.83.0.bzl.1.tar.gz"
+}
