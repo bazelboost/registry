@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-nGsQab5Z99FrHuKa+JOLpT10JVq3q3wQBA6Q/17QJ9M=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/interval/releases/download/bazelboost-1.83.0.bzl.1/interval-bazelboost-1.83.0.bzl.1.tar.gz"
+}
