@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-V8EuW/iQLzhmKOmDs2bzzOYfqSkfuouJScuwgYAu9eQ=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/atomic/releases/download/bazelboost-1.83.0.bzl.1/atomic-bazelboost-1.83.0.bzl.1.tar.gz"
+}
