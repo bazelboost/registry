@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-YDgEcadN4awe1wIlsac/p94o5+STryik5DAdjhfyU7Q=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/regex/releases/download/bazelboost-1.83.0.bzl.1/regex-bazelboost-1.83.0.bzl.1.tar.gz"
+}
