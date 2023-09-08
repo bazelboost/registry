@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-E2lXp5Wdbrb0+yxQs3LbGfi8XSQdKP25WslY7gxhZzw=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/iterator/releases/download/bazelboost-1.83.0.bzl.1/iterator-bazelboost-1.83.0.bzl.1.tar.gz"
+}
