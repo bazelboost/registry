@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-PJYRnEIABdehbOGm1ISacoNJIKQWEaB2W5acjXx9loA=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/proto/releases/download/bazelboost-1.83.0.bzl.1/proto-bazelboost-1.83.0.bzl.1.tar.gz"
+}
