@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-CI6xqDYIwKwFGul2crBkTBI2rKn6YGJZTZ+xIsY+6hY=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/nowide/releases/download/bazelboost-1.83.0.bzl.1/nowide-bazelboost-1.83.0.bzl.1.tar.gz"
+}
