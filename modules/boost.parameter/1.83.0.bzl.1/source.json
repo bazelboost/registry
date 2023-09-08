@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-9wmjvRvqZuqEdNKnQ/pfLQcEzu9iQ012GtOKOOIan3A=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/parameter/releases/download/bazelboost-1.83.0.bzl.1/parameter-bazelboost-1.83.0.bzl.1.tar.gz"
+}
