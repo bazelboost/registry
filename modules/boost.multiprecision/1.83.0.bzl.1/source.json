@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-ip//nPyT2mgvCfUh7tkC+TojmqUycKSvjZxZWDZ2RCo=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/multiprecision/releases/download/bazelboost-1.83.0.bzl.1/multiprecision-bazelboost-1.83.0.bzl.1.tar.gz"
+}
