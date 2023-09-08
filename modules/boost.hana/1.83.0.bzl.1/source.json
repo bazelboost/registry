@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-qSgb0LHGe9T8TCPk/9ix70iSt+++Q70xjIRr8f2GWbk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/hana/releases/download/bazelboost-1.83.0.bzl.1/hana-bazelboost-1.83.0.bzl.1.tar.gz"
+}
