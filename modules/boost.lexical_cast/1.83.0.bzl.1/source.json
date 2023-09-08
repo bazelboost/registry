@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-21mY9LREV6d2wqkkerxe/HLNwRo44jxEjnGebRsV5c0=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/lexical_cast/releases/download/bazelboost-1.83.0.bzl.1/lexical_cast-bazelboost-1.83.0.bzl.1.tar.gz"
+}
