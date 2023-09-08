@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-MpAP1Oi5LZP46sGO/Ve4FFmtfp1aEzd44XlkvfxTGeg=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/property_map/releases/download/bazelboost-1.83.0.bzl.1/property_map-bazelboost-1.83.0.bzl.1.tar.gz"
+}
