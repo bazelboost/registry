@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-NufB9rP1ouylStpaF5M4MhrVAWSTrFKCkESyWbKRZh4=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/tokenizer/releases/download/bazelboost-1.83.0.bzl.1/tokenizer-bazelboost-1.83.0.bzl.1.tar.gz"
+}
