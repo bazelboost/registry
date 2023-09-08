@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-jCuDjEflgMLHthYaVzh+TDOr1WaGF/0FdS7qVY54SQo=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/accumulators/releases/download/bazelboost-1.83.0.bzl.1/accumulators-bazelboost-1.83.0.bzl.1.tar.gz"
+}
