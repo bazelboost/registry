@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-+o7/638vHLyfeJVLfO/LK8iT/07aC561nDK0D1my1yk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/statechart/releases/download/bazelboost-1.83.0.bzl.1/statechart-bazelboost-1.83.0.bzl.1.tar.gz"
+}
