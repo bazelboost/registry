@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-rlb2yiqTeE4SD3dl97sb0CRxcK7t67IwpMZAEYZzj+o=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/dynamic_bitset/releases/download/bazelboost-1.83.0.bzl.1/dynamic_bitset-bazelboost-1.83.0.bzl.1.tar.gz"
+}
