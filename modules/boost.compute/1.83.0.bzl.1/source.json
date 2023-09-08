@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-COs8eNRnblfWY1zzYX1mbltwA/fS4VzmLL3Ap3/icoI=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/compute/releases/download/bazelboost-1.83.0.bzl.1/compute-bazelboost-1.83.0.bzl.1.tar.gz"
+}
