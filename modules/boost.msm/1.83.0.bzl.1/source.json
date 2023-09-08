@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-pxsVEO13zdyEKrUWgnUQtCKta5kMyrv98EHrh/MMFVo=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/msm/releases/download/bazelboost-1.83.0.bzl.1/msm-bazelboost-1.83.0.bzl.1.tar.gz"
+}
