@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-RectNkgMHgB/D4blj0DTV6brTbEAFqg/y3Jey7X6yNU=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/spirit/releases/download/bazelboost-1.83.0.bzl.1/spirit-bazelboost-1.83.0.bzl.1.tar.gz"
+}
