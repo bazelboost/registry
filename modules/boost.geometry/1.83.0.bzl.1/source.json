@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-IODld+67WdIUaFR65O+HdpWbXQOBauXsYjDmHEPWjho=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/geometry/releases/download/bazelboost-1.83.0.bzl.1/geometry-bazelboost-1.83.0.bzl.1.tar.gz"
+}
