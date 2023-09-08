@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-fBHAqrgiCUVrlKMwglJU0swCp1+2jvg2hU8tfdz2gyk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/lockfree/releases/download/bazelboost-1.83.0.bzl.1/lockfree-bazelboost-1.83.0.bzl.1.tar.gz"
+}
