@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-ruRQHEbPaO7EQnrqIK1Yj0CBzvH1hXTWTB5/QJQOKpk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/yap/releases/download/bazelboost-1.83.0.bzl.1/yap-bazelboost-1.83.0.bzl.1.tar.gz"
+}
