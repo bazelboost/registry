@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-zY1U+bWIwvqSu++PyPwhwfjvJnBnwqKkGi0UEPmJJvQ=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/unordered/releases/download/bazelboost-1.83.0.bzl.1/unordered-bazelboost-1.83.0.bzl.1.tar.gz"
+}
