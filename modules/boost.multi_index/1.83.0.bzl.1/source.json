@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-QbfSs7/cf1dgLDg1/smCejTtZgs/jYl7WTuqum8LBps=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/multi_index/releases/download/bazelboost-1.83.0.bzl.1/multi_index-bazelboost-1.83.0.bzl.1.tar.gz"
+}
