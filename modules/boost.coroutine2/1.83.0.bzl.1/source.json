@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-b96E3VmlK+wxDAtnVk+KYHMqCnim6737XOKuAInSvsA=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/coroutine2/releases/download/bazelboost-1.83.0.bzl.1/coroutine2-bazelboost-1.83.0.bzl.1.tar.gz"
+}
