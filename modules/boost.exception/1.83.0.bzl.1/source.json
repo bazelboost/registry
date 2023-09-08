@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-Q7DUy6S44HtRtcXvqJzsswSCRXmHhf7JdPHmeruRoMk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/exception/releases/download/bazelboost-1.83.0.bzl.1/exception-bazelboost-1.83.0.bzl.1.tar.gz"
+}
