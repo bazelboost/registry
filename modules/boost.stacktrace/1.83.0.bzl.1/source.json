@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-ZHjmFXuqKDGZbPgTvFHAs9du9i2JSYO1DbyP6ddVGo8=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/stacktrace/releases/download/bazelboost-1.83.0.bzl.1/stacktrace-bazelboost-1.83.0.bzl.1.tar.gz"
+}
