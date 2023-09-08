@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-SeziGyl/H5aMd5nuXeh/qBYk4HqZbKgnWRGrz7OhDbw=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/contract/releases/download/bazelboost-1.83.0.bzl.1/contract-bazelboost-1.83.0.bzl.1.tar.gz"
+}
