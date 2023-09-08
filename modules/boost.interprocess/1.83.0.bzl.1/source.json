@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-KnoJf8u9t/kxiQ7rYZTNhn3ol5fjpHgvbpWrJ0LU0Cg=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/interprocess/releases/download/bazelboost-1.83.0.bzl.1/interprocess-bazelboost-1.83.0.bzl.1.tar.gz"
+}
