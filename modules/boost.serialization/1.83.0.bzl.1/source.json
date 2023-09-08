@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-h+d+r8qXXAjZ4wwLZ7UgbRYoaSwE8N26LsQHbdHTjLM=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/serialization/releases/download/bazelboost-1.83.0.bzl.1/serialization-bazelboost-1.83.0.bzl.1.tar.gz"
+}
