@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-3X/33F0HSJjCmywoPKHf8ZjgvaozCSmzJ/Sf3ABwsZ8=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/xpressive/releases/download/bazelboost-1.83.0.bzl.1/xpressive-bazelboost-1.83.0.bzl.1.tar.gz"
+}
