@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-Xd3Cp7DKZtD0vN9BJHUJUQ4tE0id6L3Pgql7AkYOH7s=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/tti/releases/download/bazelboost-1.83.0.bzl.1/tti-bazelboost-1.83.0.bzl.1.tar.gz"
+}
