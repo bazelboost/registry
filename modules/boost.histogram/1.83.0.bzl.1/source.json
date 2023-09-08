@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-CbUCcsGuIcqCcG4Q9QIBDx4L/GZWpvtP5wazGPggFB8=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/histogram/releases/download/bazelboost-1.83.0.bzl.1/histogram-bazelboost-1.83.0.bzl.1.tar.gz"
+}
