@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-3K7t+B2FFJ4TL+l4fpyikN7U4WAjkE9cB1LwkOnN4Nk=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/metaparse/releases/download/bazelboost-1.83.0.bzl.1/metaparse-bazelboost-1.83.0.bzl.1.tar.gz"
+}
