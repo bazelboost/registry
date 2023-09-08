@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-JR4Oipe5xCfCjRguXSdokd4rHIgVo9Vg68BnfGZwJn4=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/ublas/releases/download/bazelboost-1.83.0.bzl.1/ublas-bazelboost-1.83.0.bzl.1.tar.gz"
+}
