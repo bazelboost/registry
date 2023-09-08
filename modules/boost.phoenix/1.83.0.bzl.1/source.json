@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-LyZ0RIZAoz4/L6rgn2yri1CqteXuIVXhE3Xu5XqTsc0=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/phoenix/releases/download/bazelboost-1.83.0.bzl.1/phoenix-bazelboost-1.83.0.bzl.1.tar.gz"
+}
