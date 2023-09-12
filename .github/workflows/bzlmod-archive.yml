@@ -12,7 +12,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - run: git archive -o "${{ format('{0}-{1}.tar.gz', github.event.repository.name, github.event.release.tag_name) }}" HEAD *.bazel include
+      - if: ${{ hashfiles('src/') == '' }}
+        run: git archive -o "${{ format('{0}-{1}.tar.gz', github.event.repository.name, github.event.release.tag_name) }}" HEAD *.bazel include
+      - if: ${{ hashfiles('src/') != '' }}
+        run: git archive -o "${{ format('{0}-{1}.tar.gz', github.event.repository.name, github.event.release.tag_name) }}" HEAD *.bazel include src
       - run: gh release upload ${{ github.event.release.tag_name }} *.tar.gz
         env:
           GH_TOKEN: ${{ github.token }}
