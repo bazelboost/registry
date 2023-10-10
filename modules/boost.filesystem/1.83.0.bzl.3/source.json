@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-zU2erbiWADPpUzKT2Mbjz1JXSYlzfgUKHTFuu1bxLRE=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/filesystem/releases/download/bazelboost-1.83.0.bzl.3/filesystem-bazelboost-1.83.0.bzl.3.tar.gz"
+}
