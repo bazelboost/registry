@@ -25,7 +25,7 @@ Now all the bazelboost modules may be added to your projects `MODULE.bazel` file
 ```starlark
 module(name = "my_project")
 
-bazel_dep(name = "boost.asio")
+bazel_dep(name = "boost.asio", version = "1.83.0.bzl.X") # replace 'X' with latest version
 ```
 
 All bazelboost modules have a target at the root with the same name as the module. For most cases you simple can use the module like so:
