@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-38tFIZRGw5MyU8MYJk8c+gnunCZjdP+rNiVBHrMS6VQ=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/uuid/releases/download/bazelboost-1.83.0.bzl.2/uuid-bazelboost-1.83.0.bzl.2.tar.gz"
+}
