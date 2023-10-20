@@ -15,9 +15,9 @@ To use the bazelboost registry add it to your projects `.bazelrc` file.
 common --enable_bzlmod
 
 # add bazelboost registry
-build --registry=https://raw.githubusercontent.com/bazelboost/registry/main
+common --registry=https://raw.githubusercontent.com/bazelboost/registry/main
 # by adding the bazelboost registry the BCR gets removed so you must add it here as well
-build --registry=https://bcr.bazel.build
+common --registry=https://bcr.bazel.build
 ```
 
 Now all the bazelboost modules may be added to your projects `MODULE.bazel` file.
