@@ -4,7 +4,7 @@
 
 # Bazel Registry for Boost
 
-The bazelboost project is an attempt to build boost modules as bazel modules. This is the [bazel registry](https://bazel.build/external/registry) for bazelboost.
+The bazelboost project is an attempt to build Boost modules as Bazel modules. This is the [bazel registry](https://bazel.build/external/registry) for bazelboost.
 
 ## Usage
 
@@ -15,9 +15,9 @@ To use the bazelboost registry add it to your projects `.bazelrc` file.
 common --enable_bzlmod
 
 # add bazelboost registry
-build --registry=https://raw.githubusercontent.com/bazelboost/registry/main
+common --registry=https://raw.githubusercontent.com/bazelboost/registry/main
 # by adding the bazelboost registry the BCR gets removed so you must add it here as well
-build --registry=https://bcr.bazel.build
+common --registry=https://bcr.bazel.build
 ```
 
 Now all the bazelboost modules may be added to your projects `MODULE.bazel` file.
@@ -58,4 +58,4 @@ If a feature is missing please file an issue in the bazelboost module.
 
 ## Bazel Boost Repository Structure
 
-Each repository in the bazelboost org maintains a `bazelboost-*` branch for each version it supports. At this time we're limiting support to `1.83.0` until everything is relatively stable. No source file modifications are permitted, only bazel related files may be added.
+Each repository in the bazelboost org maintains a `bazelboost-*` branch for each version it supports. At this time we're limiting support to `1.83.0` until everything is relatively stable. No source file modifications are permitted, only Bazel-related files may be added.
