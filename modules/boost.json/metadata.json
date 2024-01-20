@@ -11,7 +11,8 @@
     "github:bazelboost/json"
   ],
   "versions": [
-    "1.83.0.bzl.1"
+    "1.83.0.bzl.1",
+    "1.83.0.bzl.2"
   ],
   "yanked_versions": {}
 }
