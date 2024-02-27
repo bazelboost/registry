@@ -1,6 +1,13 @@
 module(name = "bazelboost_registry")
 
-bazel_dep(name = "rules_cc", version = "0.0.8")
+bazel_dep(name = "rules_cc", version = "0.0.9")
 bazel_dep(name = "gflags", version = "2.2.2")
 bazel_dep(name = "nlohmann_json", version = "3.11.2")
 bazel_dep(name = "boringssl", version = "0.0.0-20230215-5c22014")
+bazel_dep(name = "toolchains_llvm", version = "0.10.3")
+
+llvm = use_extension("@toolchains_llvm//toolchain/extensions:llvm.bzl", "llvm")
+llvm.toolchain(llvm_version = "17.0.6")
+
+use_repo(llvm, "llvm_toolchain")
+register_toolchains("@llvm_toolchain//:all")
