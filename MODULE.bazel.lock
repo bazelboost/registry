@@ -1,6 +1,6 @@
 {
   "lockFileVersion": 3,
-  "moduleFileHash": "7b32d19ed0435188e27b25872c3f3d5824353d2a81493cecf13c242f8dd22123",
+  "moduleFileHash": "ff19777abe17aa4f106255b5bf54edba0fa5cd574174e56c3b150883ae863562",
   "flags": {
     "cmdRegistries": [
       "https://bcr.bazel.build/"
@@ -43,7 +43,7 @@
             {
               "tagName": "toolchain",
               "attributeValues": {
-                "llvm_version": "17.0.6"
+                "llvm_version": "16.0.4"
               },
               "devDependency": false,
               "location": {
@@ -1449,7 +1449,7 @@
               "link_flags": {},
               "link_libs": {},
               "llvm_versions": {
-                "": "17.0.6"
+                "": "16.0.4"
               },
               "opt_compile_flags": {},
               "opt_link_flags": {},
@@ -1469,7 +1469,7 @@
               "auth_patterns": {},
               "distribution": "auto",
               "llvm_mirror": "",
-              "llvm_version": "17.0.6",
+              "llvm_version": "16.0.4",
               "llvm_versions": {},
               "netrc": "",
               "sha256": {},
