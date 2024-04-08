@@ -1,0 +1,6 @@
+{
+  "integrity": "sha256-iwiYMc+9N20D+JXstI1ESnNbNR7e3YXYCpmQ0TgeDFo=",
+  "patch_strip": 0,
+  "patches": {},
+  "url": "https://github.com/bazelboost/chrono/releases/download/bazelboost-1.83.0.bzl.2/chrono-bazelboost-1.83.0.bzl.2.tar.gz"
+}
