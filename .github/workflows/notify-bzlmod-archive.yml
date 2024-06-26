@@ -10,14 +10,9 @@ jobs:
       pull-requests: write
       contents: write
     steps:
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache/bazelisk
-            ~/.cache/bazel-disk-cache
-          key: ${{runner.os}}-bazel-cache      
       - uses: actions/setup-go@v4
       - run: go install github.com/bazelbuild/buildtools/buildozer@latest
+      - run: sudo curl -sL https://github.com/seaube/bzlcmd/releases/download/0.2.2/bzlreg-linux-amd64 -o /usr/bin/bzlreg && sudo chmod +x /usr/bin/bzlreg
       - uses: actions/checkout@v4
         with:
           repository: bazelboost/registry
@@ -25,7 +20,11 @@ jobs:
       - name: create pull request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: 'chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}'
-          title: 'chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}'
-          body: ''
-          branch: 'add-${{ github.event.client_payload.repo }}-${{ github.event.client_payload.tag_name }}'
+          commit-message: "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"
+          title: "chore: add ${{ github.event.client_payload.repo }} ${{ github.event.client_payload.tag_name }}"
+          body: ""
+          branch: "add-${{ github.event.client_payload.repo }}-${{ github.event.client_payload.tag_name }}"
+      - name: enable automerge
+        run: gh pr merge add-${{ github.event.client_payload.repo }}-${{ github.event.client_payload.tag_name }} --auto -s
+        env:
+          GH_TOKEN: ${{ github.token }}
