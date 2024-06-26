@@ -4,3 +4,4 @@ user.bazelrc
 /compile_commands.json
 /.cache
 *.tar.gz
+*.bazel.lock
