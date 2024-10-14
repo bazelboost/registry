@@ -1,17 +1,18 @@
 {
-  "homepage": "https://www.boost.org/doc/libs/release/libs/stacktrace/doc/html/index.html",
-  "maintainers": [
-    {
-      "email": "ezekiel@seaube.com",
-      "github": "zaucy",
-      "name": "Ezekiel Warren"
-    }
-  ],
-  "repository": [
-    "github:bazelboost/stacktrace"
-  ],
-  "versions": [
-    "1.83.0.bzl.1"
-  ],
-  "yanked_versions": {}
+    "homepage": "https://www.boost.org/doc/libs/release/libs/stacktrace/doc/html/index.html",
+    "maintainers": [
+        {
+            "email": "ezekiel@seaube.com",
+            "github": "zaucy",
+            "name": "Ezekiel Warren"
+        }
+    ],
+    "repository": [
+        "github:bazelboost/stacktrace"
+    ],
+    "versions": [
+        "1.83.0.bzl.1",
+        "1.83.0.bzl.2"
+    ],
+    "yanked_versions": {}
 }
