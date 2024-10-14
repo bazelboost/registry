@@ -16,7 +16,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: bazelboost/registry
-      - run: bazelisk run --config=ci //tools:add_module_version -- -archive="${{ github.event.client_payload.archive }}"
       - name: create pull request
         uses: peter-evans/create-pull-request@v5
         with:
