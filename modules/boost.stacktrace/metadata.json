@@ -12,7 +12,8 @@
     ],
     "versions": [
         "1.83.0.bzl.1",
-        "1.83.0.bzl.2"
+        "1.83.0.bzl.2",
+        "1.83.0.bzl.3"
     ],
     "yanked_versions": {}
 }
